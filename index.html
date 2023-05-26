@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Saiful Islam</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: #08050f;
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 60px;
+        background-color: #2a008c;
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+        font-size: 15px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+
+      nav ul li a:hover {
+        color: rgb(169, 145, 240);
+        font-size: 1.01rem;
+      }
+
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        margin: 75px 0;
+        align-items: center;
+      }
+      .firstSection > div {
+        width: 40%;
+      }
+
+      .leftSection {
+        font-size: 2.5rem;
+      }
+      .leftSection .buttons{
+        padding: 50px;
+      }
+      .leftSection .btn{
+        padding: 12px;
+        background: #08050f;
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 15px;
+        cursor: pointer;
+      }
+      .leftSection .btn:hover {
+        color: rgb(169, 145, 240);
+        font-size: 1.01rem;
+      }
+
+      .rightSection {
+        background-color: transparent;
+      }
+      .rightSection img {
+        width: 80%;
+      }
+      .purple {
+        color: blueviolet;
+      }
+      #element {
+        color: blueviolet;
+      }
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+      main hr {
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 40px 84px;
+      }
+      .secondSection h1 {
+        font-size: 1.9rem;
+      }
+      .text-gray {
+        color: gray;
+      }
+
+      .secondSection .box {
+        background: white;
+        width: 82vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 100px;
+      }
+      .image-top {
+        width: 23px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+      .vertical-title {
+        position: relative;
+        top: 75px;
+        width: 170px;
+      }
+      .vertical-text {
+        position: relative;
+        top: 72px;
+        width: 120px;
+        font-size: 14px;
+      }
+      .vertical-desc {
+        position: relative;
+        top: 86px;
+        color: gray;
+        width: 150px;
+        font-size: 9px;
+      }
+      footer{
+        background-color: rgb(13, 14, 31);
+        
+      }
+      .footer{
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+
+      }
+
+      .footer ul{
+        list-style: none;
+      }
+      .footer > div{
+        width: 223px;
+      }
+
+      footer .text-rights{
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+        font-size: 14px;
+
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Saiful's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="purple">Saiful</span>
+
+          <div>and I am a Passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Visit Github</button>
+          </div>
+        </div>
+
+        <div class="rightSection">
+          <img src="bg.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="html.png" alt="" />
+            <div class="vertical-text">HTML Developer (2020-2022)</div>
+            <div class="vertical-desc">
+              A Web Developer is a professional who is responsible for the
+              design and construction of websites. They ensure that sites meet
+              user expectations by ensuring they look good, run smoothly and
+              offer easy access points with no loading issues between pages or
+              error messages.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="css.png" alt="" />
+            <div class="vertical-text">HTML Developer (2020-2022)</div>
+            <div class="vertical-desc">
+              A Web Developer is a professional who is responsible for the
+              design and construction of websites. They ensure that sites meet
+              user expectations by ensuring they look good, run smoothly and
+              offer easy access points with no loading issues between pages or
+              error messages.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="react.png" alt="" />
+            <div class="vertical-text">HTML Developer (2020-2022)</div>
+            <div class="vertical-desc">
+              A Web Developer is a professional who is responsible for the
+              design and construction of websites. They ensure that sites meet
+              user expectations by ensuring they look good, run smoothly and
+              offer easy access points with no loading issues between pages or
+              error messages.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="" />
+            <div class="vertical-text">HTML Developer (2020-2022)</div>
+            <div class="vertical-desc">
+              A Web Developer is a professional who is responsible for the
+              design and construction of websites. They ensure that sites meet
+              user expectations by ensuring they look good, run smoothly and
+              offer easy access points with no loading issues between pages or
+              error messages.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="" />
+            <div class="vertical-text">HTML Developer (2020-2022)</div>
+            <div class="vertical-desc">
+              A Web Developer is a professional who is responsible for the
+              design and construction of websites. They ensure that sites meet
+              user expectations by ensuring they look good, run smoothly and
+              offer easy access points with no loading issues between pages or
+              error messages.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="" />
+            <div class="vertical-text">HTML Developer (2020-2022)</div>
+            <div class="vertical-desc">
+              A Web Developer is a professional who is responsible for the
+              design and construction of websites. They ensure that sites meet
+              user expectations by ensuring they look good, run smoothly and
+              offer easy access points with no loading issues between pages or
+              error messages.
+            </div>
+          </div>
+          <div class="vertical"></div>
+          <div class="vertical"></div>
+          <div class="vertical"></div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Saiful's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Service</li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Service</li>
+          </ul>
+        </div>
+        <div class="footer-fourth">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Service</li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-rights">
+        Copyright &#169:saifulportfolio.com | All rights reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "UI/UX Designer", "Web Designer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
